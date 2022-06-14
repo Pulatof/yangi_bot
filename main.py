@@ -83,7 +83,7 @@ async def mil_taom_ret(message:types.Message):
     await message.answer_video("https://t.me/oshxona_oshpaz_pazanda_retseptla/15916", reply_markup=config.Mil_taom_rets)
 
 @dp.callback_query_handler(Text(equals="osh"))
-async def oshpalov(call: CallbackQuery):
+async def plov(call: CallbackQuery):
     await call.message.answer_video()
 
 
