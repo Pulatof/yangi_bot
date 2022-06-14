@@ -9,7 +9,7 @@ kirish_qismi = ReplyKeyboardMarkup([
 )
 
 asosiy_menu = ReplyKeyboardMarkup([
-    [KeyboardButton("Milliy taomlar retseptlari"), KeyboardButton("Yevropa taomlari"), KeyboardButton("Uygur milliy taomlari")],
+    [KeyboardButton("Milliy taomlarni retseptlari"), KeyboardButton("Yevropa taomlari"), KeyboardButton("Uygur milliy taomlari")],
     [KeyboardButton("Shirinliklar"),KeyboardButton("Ichimliklar"), KeyboardButton("Orqaga")],
 ], resize_keyboard=True
 )
